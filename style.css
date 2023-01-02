@@ -1,0 +1,62 @@
+@import url(https://fonts.google.com/specimen/East+Sea+Dokdo);
+body{
+    background-color: #DADCEB;
+    background-image: url(./pexels-photo-4058530.jpeg);
+}
+.box-logo-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.logo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #E1C5EF;
+}
+nav{
+    padding: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #E1C5EF;
+}
+ul{
+    display: flex;
+    list-style: none;
+    width: fit-content;
+    
+}
+li{
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: transparent;
+    color: #121211a7;
+}
+a:hover{
+	background-color: #687a9c96;
+	border-radius: 5px;
+}
+img{
+    width: 250px;
+    border-radius: 15px;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #C1C0D0;
+    border-color: #617296;
+}
+button:hover{
+    background-color: #E6A1B8;
+    border-color: #617296;
+}
